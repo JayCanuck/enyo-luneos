@@ -21,7 +21,7 @@
 	window.Mojo = window.Mojo || {};
 
 	// platform verification
-	if(window.navigator.userAgent.toLowerCase().indexOf('lunos')>=0) {
+	if(window.navigator.userAgent.toLowerCase().indexOf('LuneOS')>=0) {
 		webOS.platform.luneos = true;
 	}
 
