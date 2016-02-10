@@ -6,6 +6,9 @@
     "module": true,
     "module.exports": true,
     "JSON": false,
+    "console": false,
+    "Mojo": true,
+    "PalmSystem": false,
     "webOS": true
   },
   "es3": true,
@@ -23,5 +26,6 @@
   "newcap": false,
   "undef": true,
   "expr": true,
-  "unused": "vars"
+  "unused": "vars",
+  "-W065": true
 }
